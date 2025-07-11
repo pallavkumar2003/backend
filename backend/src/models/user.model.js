@@ -1,6 +1,5 @@
 import mongoose , {Schema} from "mongoose";
 import bcrypt from "bcrypt";
-// User schema for MongoDB using Mongoose
 import jsonwebtoken from "jsonwebtoken";
 
 const userSchema = new Schema({
